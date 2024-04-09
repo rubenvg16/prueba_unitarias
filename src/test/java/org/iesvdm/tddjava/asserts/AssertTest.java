@@ -1,6 +1,7 @@
 package org.iesvdm.tddjava.asserts;
 
 
+//Junit 5 = org.junit.jupiter
 
 import org.junit.jupiter.api.Test;
 import org.testng.IObjectFactory2;
@@ -50,7 +51,7 @@ public class AssertTest {
         assertTrue(1 == 1);
     }
 
-    @Test
+@Test
     void whenBooleanIsFalse() {
         boolean flag =false;
         assertFalse(flag);
